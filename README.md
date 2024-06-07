@@ -135,3 +135,50 @@ if age >= 18:
 else:
     print("Access denied.")
 ## Syntax must be indented as above or doesn't work ##
+
+age = 20
+has_permission = True
+
+if age >= 18:
+    if has_permission: ## - this is a nested if statement
+        print("Access granted.")
+    else:
+        print("Access denied.")
+else:
+    print("Access denied.")
+## Syntax must be indented as above or doesn't work ##
+
+## A simpler version ##
+
+if age >=18 and has_permission:
+    print("Access granted.")
+else:
+    print("Access denied.")
+
+#### Ternary operator
+Condenses series of code into one line statements.
+
+age = 20
+has_permission = True
+
+
+print("Access granted.") if age >=18 and has_permission else print("Access denied.")
+
+#### Example 
+
+temperature = 30
+
+if temperature > 30:
+    message = "It's hot outside."
+else:
+    message = "It's not hot outside."
+print(message)
+
+## convert to ternary operator ##
+
+message = "It's hot outside." if temperature > 30 else "It's not hot outside."
+
+print(message)
+
+#### Match Case
+
