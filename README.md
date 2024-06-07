@@ -1,0 +1,1 @@
+### Thursday 6th June 2024 - Python Lesson
