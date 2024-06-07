@@ -1,3 +1,11 @@
-I_Am_Happy = True
+age = 20
+has_permission = False
 
-print(I_Am_Happy)
+if age >= 18:
+    if has_permission:
+        print("Access granted.")
+    else:
+        print("Access denied.")
+else:
+    print("Access denied.")
+## Syntax must be indented as above or doesn't work ##
