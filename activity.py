@@ -13,4 +13,4 @@ elif score >= 60:
 else:
     grade = "F"
 
-print(f"The grade for your score is {score} is {grade}") 
+print(f"The grade for your score {score} is {grade}") 

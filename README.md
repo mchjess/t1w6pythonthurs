@@ -1,5 +1,5 @@
 ### Thursday 6th June 2024 - Python Lesson
-
+python3 activity.py - execute
 
 #### Control Flow
 Order in which a program executes code.
